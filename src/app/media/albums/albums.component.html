@@ -1,0 +1,17 @@
+<div class="container-fluid">
+	<h3>Albums</h3>
+</div>
+
+<div class="container-fluid">
+  <div *ngFor="let data of httpdata" class="row">
+    <div class="col-1">
+	   <h3>Title</h3>
+	</div>
+
+    <div class="col-6">
+
+	    <p>{{data.title}}</p>
+
+	</div>
+  </div>
+</div>
